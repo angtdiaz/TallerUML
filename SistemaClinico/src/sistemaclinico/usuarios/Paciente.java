@@ -10,7 +10,7 @@ package sistemaclinico.usuarios;
  * @author Administrator
  */
 public class Paciente {
-    protected String email;
+    private String email;
     
     public boolean solicitarCita(){
     return true;
