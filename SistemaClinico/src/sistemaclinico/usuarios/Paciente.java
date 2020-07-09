@@ -5,12 +5,17 @@
  */
 package sistemaclinico.usuarios;
 
+import sistemaclinico.historiaclinica.HistoriaClinica;
+import sistemaclinico.receta.Receta;
+
 /**
  *
  * @author Administrator
  */
 public class Paciente {
     private String email;
+    private Receta receta;
+    private HistoriaClinica historiaClinica;
     
     public boolean solicitarCita(){
     return true;

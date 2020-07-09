@@ -5,6 +5,7 @@
  */
 package sistemaclinico.receta;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -13,7 +14,9 @@ import java.util.Date;
  */
 public class Receta {
     protected Date fecha;
-
+    protected PlanNutricional plan;
+    protected ArrayList<Medicamento> medicamentos;
+    
     public Receta() {
     }
     
