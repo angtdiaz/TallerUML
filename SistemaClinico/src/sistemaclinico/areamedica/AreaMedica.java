@@ -10,5 +10,10 @@ package sistemaclinico.areamedica;
  * @author Carlos
  */
 public class AreaMedica {
+    protected String especialidad;
+    protected float costo;
+
+    public AreaMedica() {
+    }
     
 }

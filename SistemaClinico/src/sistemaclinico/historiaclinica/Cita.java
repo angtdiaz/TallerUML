@@ -6,6 +6,7 @@
 package sistemaclinico.historiaclinica;
 
 import java.util.Date;
+import sistemaclinico.pago.Pago;
 
 
 
