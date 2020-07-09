@@ -10,5 +10,8 @@ package sistemaclinico.usuarios;
  * @author Administrator
  */
 public class Administrador {
-    
+    public boolean registraUsuario(){
+    return true;
+    }
+    public void asignarRol(Persona persona){}
 }

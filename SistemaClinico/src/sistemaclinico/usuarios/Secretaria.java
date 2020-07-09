@@ -10,5 +10,6 @@ package sistemaclinico.usuarios;
  * @author Administrator
  */
 public class Secretaria {
-    
+    public void verificarCita(){}
+    public void agendarCita(){}
 }
