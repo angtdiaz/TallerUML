@@ -5,6 +5,8 @@
  */
 package sistemaclinico.usuarios;
 
+import sistemaclinico.areamedica.AreaMedica;
+
 /**
  *
  * @author Administrator
@@ -12,6 +14,8 @@ package sistemaclinico.usuarios;
 public class Doctor extends Persona {
     private int regDoctor;
     private String especialidad;
+    private Secretaria secretaria;
+    private AreaMedica area;
     
     public void recetar(){}
     public void agregarPlanNut(){}

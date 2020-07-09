@@ -5,10 +5,19 @@
  */
 package sistemaclinico.pago;
 
+import java.util.Date;
+
 /**
  *
  * @author Administrator
  */
-public class PagoTarjeta {
-    
+public class PagoTarjeta implements Pago{
+    protected float pago;
+    protected String monto, propietario, banco;
+    protected Date expira;
+
+    @Override
+    public boolean realizarPago(float monto) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

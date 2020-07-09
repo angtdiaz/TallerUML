@@ -5,6 +5,9 @@
  */
 package sistemaclinico.areamedica;
 
+import java.util.ArrayList;
+import sistemaclinico.usuarios.Doctor;
+
 /**
  *
  * @author Carlos
@@ -12,8 +15,8 @@ package sistemaclinico.areamedica;
 public class AreaMedica {
     protected String especialidad;
     protected float costo;
+    protected ArrayList<Doctor> doctores;
 
-    public AreaMedica() {
-    }
+    
     
 }

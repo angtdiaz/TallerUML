@@ -14,6 +14,7 @@ import java.util.Date;
 public class Persona {
     protected String usuario, clave, nombre, apellido, cedula, direccion;
     protected Date fechaNac;
+    protected Administrador admi;
     
     public boolean logIn(){
     return true;

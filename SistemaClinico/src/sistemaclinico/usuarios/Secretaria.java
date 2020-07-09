@@ -12,4 +12,5 @@ package sistemaclinico.usuarios;
 public class Secretaria {
     public void verificarCita(){}
     public void agendarCita(){}
+    private Doctor doctor;
 }
