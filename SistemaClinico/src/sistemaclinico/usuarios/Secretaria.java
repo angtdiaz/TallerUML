@@ -5,6 +5,9 @@
  */
 package sistemaclinico.usuarios;
 
+import java.util.ArrayList;
+import sistemaclinico.historiaclinica.Cita;
+
 /**
  *
  * @author Administrator
@@ -13,4 +16,5 @@ public class Secretaria {
     public void verificarCita(){}
     public void agendarCita(){}
     private Doctor doctor;
+    private ArrayList<Cita> citas;
 }
