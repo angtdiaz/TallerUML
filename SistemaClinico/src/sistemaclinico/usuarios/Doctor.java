@@ -8,6 +8,7 @@ package sistemaclinico.usuarios;
 import sistemaclinico.areamedica.AreaMedica;
 import java.util.ArrayList;
 import sistemaclinico.historiaclinica.Cita;
+import sistemaclinico.receta.Receta;
 
 /**
  *
@@ -18,6 +19,7 @@ public class Doctor extends Persona {
     private String especialidad;
     private Secretaria secretaria;
     private AreaMedica area;
+    private ArrayList<Receta> recetas;
 
     private ArrayList<Cita> citas;
     

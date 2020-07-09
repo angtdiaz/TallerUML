@@ -5,6 +5,7 @@
  */
 package sistemaclinico.usuarios;
 
+import java.util.ArrayList;
 import sistemaclinico.historiaclinica.Cita;
 import sistemaclinico.historiaclinica.HistoriaClinica;
 import sistemaclinico.receta.Receta;
@@ -15,7 +16,7 @@ import sistemaclinico.receta.Receta;
  */
 public class Paciente {
     private String email;
-    private Receta receta;
+    private ArrayList<Receta> receta;
     private HistoriaClinica historiaClinica;
     private Cita cita;
     
