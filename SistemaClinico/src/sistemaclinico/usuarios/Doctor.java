@@ -5,6 +5,9 @@
  */
 package sistemaclinico.usuarios;
 
+import java.util.ArrayList;
+import sistemaclinico.historiaclinica.Cita;
+
 /**
  *
  * @author Administrator
@@ -12,6 +15,7 @@ package sistemaclinico.usuarios;
 public class Doctor extends Persona {
     private int regDoctor;
     private String especialidad;
+    private ArrayList<Cita> citas;
     
     public void recetar(){}
     public void agregarPlanNut(){}

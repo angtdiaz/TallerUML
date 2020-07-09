@@ -5,6 +5,7 @@
  */
 package sistemaclinico.usuarios;
 
+import sistemaclinico.historiaclinica.Cita;
 import sistemaclinico.historiaclinica.HistoriaClinica;
 import sistemaclinico.receta.Receta;
 
@@ -16,6 +17,7 @@ public class Paciente {
     private String email;
     private Receta receta;
     private HistoriaClinica historiaClinica;
+    private Cita cita;
     
     public boolean solicitarCita(){
     return true;
