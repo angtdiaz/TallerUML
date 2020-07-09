@@ -5,10 +5,20 @@
  */
 package sistemaclinico.usuarios;
 
+import java.util.Date;
+
 /**
  *
  * @author Administrator
  */
 public class Persona {
+    protected String usuario, clave, nombre, apellido, cedula, direccion;
+    protected Date fechaNac;
     
+    public boolean logIn(){
+    return true;
+    }
+    public boolean logOut(){
+    return true;
+    }
 }
