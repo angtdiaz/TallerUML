@@ -10,8 +10,8 @@ package sistemaclinico.usuarios;
  * @author Administrator
  */
 public class Doctor extends Persona {
-    protected int regDoctor;
-    protected String especialidad;
+    private int regDoctor;
+    private String especialidad;
     
     public void recetar(){}
     public void agregarPlanNut(){}
