@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemaclinico.pago;
+package sistemaclinico.Pago;
+
+import java.util.Date;
 
 /**
  *
  * @author Administrator
  */
-public class PagoPayPal implements Pago{
-    protected float monto;
-    protected String email;
+public class PagoTarjeta implements Pago{
+    protected float pago;
+    protected String monto, propietario, banco;
+    protected Date expira;
 
     @Override
     public boolean realizarPago(float monto) {

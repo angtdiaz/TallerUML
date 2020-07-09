@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemaclinico.usuarios;
+package sistemaclinico.Usuarios;
 
 import java.util.ArrayList;
-import sistemaclinico.historiaclinica.Cita;
+import sistemaclinico.HistoriaClinica.Cita;
 
 /**
  *

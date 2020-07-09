@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemaclinico.historiaclinica;
+package sistemaclinico.HistoriaClinica;
 
 import java.util.Date;
-import sistemaclinico.pago.Pago;
-import sistemaclinico.usuarios.Doctor;
-import sistemaclinico.usuarios.Paciente;
+import sistemaclinico.Pago.Pago;
+import sistemaclinico.Usuarios.Doctor;
+import sistemaclinico.Usuarios.Paciente;
 
 
 

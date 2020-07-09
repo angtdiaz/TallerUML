@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemaclinico.receta;
+package sistemaclinico.Pago;
 
 /**
  *
- * @author Carlos
+ * @author Administrator
  */
-public class PlanNutricional {
-    protected String descripcion;
-
-    public PlanNutricional() {
-    }
-    
+public interface Pago {
+    public boolean realizarPago(float monto);
 }
