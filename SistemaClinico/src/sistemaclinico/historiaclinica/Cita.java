@@ -7,6 +7,7 @@ package sistemaclinico.historiaclinica;
 
 import java.util.Date;
 import sistemaclinico.pago.Pago;
+import sistemaclinico.usuarios.Paciente;
 
 
 
@@ -18,6 +19,7 @@ public class Cita {
     protected Date fecha;
     protected boolean pagada;
     protected String registradoPor;
+    protected Paciente paciente;
 
     public Cita() {
     }
